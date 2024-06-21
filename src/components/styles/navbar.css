@@ -1,0 +1,161 @@
+.logo-container {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  background-color: black;
+  z-index: 2;
+  padding: 13px;
+}
+.logo-nav {
+  display: flex;
+  align-items: center;
+}
+.logo-nav p {
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+}
+.nav-ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.nav-ul li {
+  margin-right: 15px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.sub-nav-container {
+  display: flex;
+  align-items: center;
+  padding-right: 3px;
+}
+.sub-nav {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.sub-nav li {
+  margin-right: 15px;
+}
+.menu-icon {
+  margin-right: 10px;
+  display: none;
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+.whatsapp-icon {
+  font-size: 25px;
+  align-items: center;
+  cursor: pointer;
+}
+.big-button {
+  padding: 12px;
+  margin-top: 0;
+  border-radius: 20px;
+}
+.big-screen-help {
+  display: none;
+}
+.help-small-screen {
+  display: block;
+}
+@media (min-width: 478px) and (max-width: 778px) {
+  .logo-nav {
+    padding-left: 10px;
+  }
+  .logo-container {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+  }
+  .logo-nav h1 {
+    font-size: 20px;
+  }
+  .button {
+    padding: 10px;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .small-nav {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 65px;
+    left: -16px;
+    background-color: black;
+  }
+  .small-nav li {
+    padding-top: 7px;
+    padding-left: 15px;
+    padding-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .big-screen-help {
+    display: block;
+  }
+  .help-small-screen {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .logo-nav {
+    padding-left: 5px;
+    padding-top: 15px;
+  }
+  .logo-container {
+    position: relative;
+    width: 100%;
+    padding-right: 0;
+  }
+
+  .logo-nav h1 {
+    font-size: 20px;
+  }
+  .button {
+    padding: 10px;
+  }
+  .nav-ul {
+    display: none;
+  }
+  .small-nav {
+    display: block;
+    padding-top: 25px;
+    padding-bottom: 30px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    top: 65px;
+    left: -16px;
+    background-color: black;
+  }
+  .small-nav li {
+    padding-top: 7px;
+    padding-left: 0px;
+    padding-bottom: 10px;
+  }
+  .menu-icon {
+    display: block;
+  }
+  .big-screen-help {
+    display: block;
+  }
+  .help-small-screen {
+    display: none;
+  }
+}

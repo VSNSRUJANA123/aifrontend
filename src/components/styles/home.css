@@ -1,0 +1,213 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.logo {
+  width: 150px;
+}
+.bg-layer {
+  width: 100%;
+  position: relative;
+  background-color: #222;
+  color: white;
+}
+.heading-section {
+  padding-top: 165px;
+}
+
+.heading {
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  font-size: 30px;
+  line-height: 64px;
+  width: 75%;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 67px;
+  color: #ffd900;
+}
+.description {
+  font-family: Nunito Sans, sans-serif;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 23px;
+  padding-top: 15px;
+}
+.subject-section {
+  padding-top: 30px;
+}
+.start-now-container {
+  padding-top: 8px;
+  padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.select-subject {
+  font-family: Montserrat, sans-serif;
+  color: rgb(255, 193, 24);
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 24px;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.carousel-container {
+  padding: 5px;
+  padding-top: 15px;
+}
+.custom-carousel img {
+  height: 69vh;
+}
+.login-form {
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.form-head {
+  padding-bottom: 10px;
+  text-align: center;
+}
+.login-form input {
+  margin-bottom: 10px;
+  padding: 10px;
+}
+.login-form button {
+  background-color: transparent;
+  border: 1px solid black;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.close-icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+.start-now-container span {
+  font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+    Arial, sans-serif;
+  margin-top: 12px;
+}
+.small-button {
+  width: 120px;
+}
+
+@media only screen and (device-width: 430px) and (device-height: 932px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait) {
+  .logo-header {
+    text-align: center;
+  }
+  .logo {
+    width: 200px;
+  }
+  .heading-section {
+    padding: 5px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+  .heading-container {
+    width: 100%;
+    padding-bottom: 15px;
+  }
+  .heading-container h1 {
+    font-size: 33px;
+  }
+  .carousel-container {
+    padding: 5px;
+    width: 100%;
+  }
+  .subject-section {
+    padding-top: 70px;
+  }
+  .heading {
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
+      Arial, sans-serif;
+    font-size: 36px;
+    line-height: 44px;
+  }
+
+  .start-now-container span {
+    padding-top: 20px;
+    font-size: 16px;
+  }
+  .description {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .ai-logo {
+    width: 300px;
+  }
+  .start-now-big {
+    padding: 10px;
+    font-size: 16px;
+    width: 120px;
+    font-weight: 700px;
+  }
+}
+@media (max-width: 769px) {
+  .heading-section {
+    padding-top: 70px;
+  }
+  .heading {
+    width: 100%;
+    font-size: 36px;
+  }
+}
+@media (max-width: 426px) {
+  .heading-section {
+    padding-top: 50px;
+  }
+  .heading-container {
+    padding: 7px;
+  }
+  .heading {
+    line-height: 1.2;
+  }
+  .subject-section {
+    padding-top: 50px;
+  }
+  .custom-carousel img {
+    height: 250px;
+  }
+  .button {
+    font-size: 18px;
+  }
+  .start-now-container span {
+    font-size: 13px;
+    font-weight: 500;
+  }
+}
+@media (max-width: 321px) {
+  .heading-section {
+    padding-top: 50px;
+  }
+  .carousel-container {
+    padding-top: 5px;
+  }
+  .custom-carousel img {
+    height: 250px;
+  }
+  .heading {
+    line-height: 1.3;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .subject-section {
+    padding-top: 40px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  .start-now-container {
+    padding-top: 0px;
+  }
+  .start-now-container span {
+    font-size: 16px;
+    margin-left: 0;
+  }
+}

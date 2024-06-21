@@ -1,0 +1,50 @@
+.chat-container {
+  box-sizing: border-box;
+  padding: 1rem;
+  padding-bottom: 10rem;
+}
+.user-msg-container {
+  display: flex;
+  justify-content: end;
+  margin-bottom: 10px;
+}
+
+.user-msg {
+  font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Roboto,
+    Ubuntu, Cantarell, "Noto Sans", sans-serif, Helvetica, "Apple Color Emoji",
+    Arial, "Segoe UI Emoji", "Segoe UI Symbol";
+  padding: 10px;
+  background-color: #f4f4f441;
+  border: 1px solid #333a44;
+  width: 50%;
+  border-radius: 10px;
+  font-size: 16px;
+  margin: 10px;
+}
+
+.user-msg p span {
+  line-height: 28px;
+}
+.bot-text {
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+}
+
+.ai-reply {
+  width: 100%;
+  border: 1px solid #333a44;
+  border-radius: 10px;
+  padding: 10px;
+  font-family: ui-sans-serif, -apple-system, system-ui, "Segoe UI", Roboto,
+    Ubuntu, Cantarell, "Noto Sans", sans-serif, Helvetica, "Apple Color Emoji",
+    Arial, "Segoe UI Emoji", "Segoe UI Symbol";
+  color: #f1f1f8;
+  font-size: 16px;
+  padding-top: 0;
+}
+.chat-status {
+  color: #ffd900 !important;
+}
+.ai-reply p {
+  line-height: 28px;
+}
