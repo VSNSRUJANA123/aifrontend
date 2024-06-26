@@ -29,7 +29,7 @@ const Navbar = () => {
     <section className="logo-container">
       <div className="logo-nav">
         <IoMenu onClick={menuIcon} className="menu-icon" />
-        <p>SaAi</p>
+        <h3 className="logo">SaAi</h3>
         <ul className={`nav-ul ${menu && "small-nav"} `}>
           <li>UPSC </li>
           <li>Syllabus</li>
@@ -52,10 +52,7 @@ const Navbar = () => {
             <Popup
               modal
               trigger={
-                <button
-                  type="button "
-                  className="button big-button trigger-button"
-                >
+                <button type="button " className=" big-button trigger-button">
                   Sign Up
                 </button>
               }
@@ -64,7 +61,7 @@ const Navbar = () => {
                 <>
                   <button
                     type="button"
-                    className="trigger-button close-btn"
+                    className="close-btn"
                     onClick={() => close()}
                   >
                     <IoIosCloseCircle className="close-icon" />

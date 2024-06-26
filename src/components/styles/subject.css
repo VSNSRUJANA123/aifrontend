@@ -1,36 +1,41 @@
 .subject {
-  padding: 54px;
+  padding: 0px;
   padding-top: 100px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 .ui-ux {
   display: flex;
 }
 .cards {
   display: flex;
-  /* width: 100%; */
 }
-.sub-cards {
-  /* max-width: 100%; */
-  margin-right: 0;
-  padding-right: 0;
-}
+
 .name {
-  height: 240px;
+  position: relative;
+  height: 250px;
   cursor: pointer;
   color: black;
   font-weight: 700;
-  padding: 30px;
   margin-bottom: 10px;
-  font-size: 25px;
   border-radius: 15px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   font-family: UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial,
     sans-serif;
+  margin-bottom: 20px;
+}
+.name .card-image {
+  width: 100%;
+  height: inherit;
+}
+.card-text {
+  text-align: center;
+  width: 100%;
+  background-color: #29242482;
+  color: white;
+  font-size: 16px;
+  bottom: 0;
+  position: absolute;
 }
 .name1 {
   background-image: linear-gradient(#feb453, #fecf57);
@@ -46,7 +51,7 @@
   background-image: linear-gradient(#a15fe4, #ef8a6a);
 }
 .subject-desc-container {
-  padding: 20px;
+  line-height: 3.5;
 }
 .subject-tittle {
   font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
@@ -84,12 +89,14 @@
 .order-subject {
   order: 2;
 }
+
 @media (max-width: 778px) {
   .subject {
     display: flex;
-    padding: 25px;
+    padding: 40px;
     padding-top: 55px;
   }
+
   .name {
     font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica,
       Arial, sans-serif;
@@ -100,12 +107,9 @@
   }
   .cards {
     display: flex;
-    width: 100%;
   }
-  .sub-cards {
-    max-width: 100%;
-    margin-right: 0;
-    padding-right: 0;
+  .subject-desc-container {
+    line-height: 2;
   }
   .button-container {
     margin-bottom: 10px;
@@ -146,6 +150,7 @@
     padding: 0px;
     padding-top: 10px;
   }
+
   .name {
     width: 190px;
     height: 180px;
@@ -156,6 +161,7 @@
   }
   .subject-desc-container {
     padding-bottom: 20px;
+    line-height: normal;
   }
 
   .button-container {
@@ -203,11 +209,14 @@
     padding: 0px;
     padding-top: 10px;
   }
+
   .name {
     font-size: 15px;
     height: 200px;
   }
-
+  .card-text {
+    font-size: 12px;
+  }
   .button-container {
     margin-bottom: 10px;
     display: flex;
@@ -229,6 +238,15 @@
     padding: 5px;
     padding-top: 20px;
     padding-bottom: 25px;
+    padding: 7px;
+  }
+  .sub-cards {
+    margin-right: 0;
+    padding-right: 3px;
+  }
+  .sub-cards-left {
+    margin-left: 0px;
+    padding-left: 3px;
   }
   .subject-tittle {
     font-size: 50px;
@@ -257,7 +275,8 @@
   }
   .name {
     font-size: 15px;
-    height: 200px;
+    height: 170px;
+    margin-right: 5px;
   }
 
   .button-container {
@@ -326,7 +345,8 @@
   }
   .name {
     font-size: 15px;
-    height: 200px;
+    height: 150px;
+    margin-right: 5px;
   }
 
   .subject-tittle {
